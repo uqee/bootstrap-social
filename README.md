@@ -13,10 +13,7 @@ Social Buttons made in pure CSS based on
 Installation
 ------------
 
-Include the `bootstrap-social.css` or `bootstrap-social.less` in your project, or
-install it through [Bower](http://bower.io/):
-
-    bower install bootstrap-social
+Include the `build/bootstrap-social.css` or `src/bootstrap-social.less` or `src/bootstrap-social.scss` in your project.
 
 Available classes
 -----------------
@@ -36,8 +33,10 @@ Available classes
  - `btn-pinterest`
  - `btn-reddit`
  - `btn-soundcloud`
+ - `btn-telegram`
  - `btn-tumblr`
  - `btn-twitter`
+ - `btn-viber`
  - `btn-vimeo`
  - `btn-vk`
  - `btn-yahoo`
