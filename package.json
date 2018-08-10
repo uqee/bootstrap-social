@@ -6,8 +6,15 @@
     "url": "https://github.com/lipis/bootstrap-social.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "~3",
-    "font-awesome": "~4.7"
+  "scripts": {
+    "build:less": "lessc -x src/bootstrap-social.less build/bootstrap-social.css",
+    "build:sass": "sass --style=compressed --no-source-map src/bootstrap-social.scss build/bootstrap-social.css",
+    "build": "npm run build:less && npm run build:sass"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "less": "^3.8.1",
+    "sass": "^1.10.4"
   }
 }
